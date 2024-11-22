@@ -1,7 +1,7 @@
 # PolarFire_SoC_FPGA_Discovery_Kit_Pinout
 Pinout for PolarFire SoC FPGA Discovery Kit
 
-# [FPGA Pinout](./pinout_Discovery_Kit.pdf)
+# [FPGA Pinout](./pinout_Discovery_Kit.pdf) [(PDC)](./Polarfire_SoC_FPGA_Discovery_Kit.pdc)
 
 | Pin Name |	Pin Number |	Direction |	Voltage |	FPGA bank |
 | :-------- | :----------- | :----------- | :------ | :---------- |
