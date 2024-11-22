@@ -12,8 +12,7 @@ Pinout for PolarFire SoC FPGA Discovery Kit
 | LED4(LOW LEVEL ACTIVE)	| U21	| Out	| 1.8V	| 0 |
 | LED5(LOW LEVEL ACTIVE)	| AA18	| Out	| 1.8V	| 0 |
 | LED6(LOW LEVEL ACTIVE)	| V16	| Out	| 1.8V	| 0 |
-| LED7(LOW LEVEL ACTIVE)	| U15	| Out	| 1.8V	| 0 |
-| LED8(LOW LEVEL ACTIVE)	| E1	| Out	| 3.3V	| 2 |
+| LED7(LOW LEVEL ACTIVE)**	| U15	| Out	| 1.8V	| 0 |
 | SWITCH1 (LOW LEVEL ACTIVE)	| T19	| In	| 1.8V	| 0 |
 | SWITCH2 (LOW LEVEL ACTIVE)	| U18	| In	| 1.8V	| 0 |
 | DIP1 (LOW LEVEL ACTIVE)	| U17	| In	| 1.8V	| 0 |
@@ -85,6 +84,8 @@ Pinout for PolarFire SoC FPGA Discovery Kit
 | CAM_GPIO	| Y17	| In	| 1.8V	| 0 |
 
 ![comment](./img/comment.png)
+
+** LED8 controlled by MSS with 3.3V
 
 # Live Probes (J12). _Debugging pins:_
 
