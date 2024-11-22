@@ -83,6 +83,7 @@ Pinout for PolarFire SoC FPGA Discovery Kit
 | CAM_I2C_SCL(PULL-UP)	| T21	| In	| 1.8V	| 0 |
 | CAM_GPIO	| Y17	| In	| 1.8V	| 0 |
 
+*-
 ![comment](./img/comment.png)
 
 ** LED8 controlled by MSS with 3.3V
