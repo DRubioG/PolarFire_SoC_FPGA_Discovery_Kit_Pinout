@@ -24,14 +24,14 @@ Pinout for PolarFire SoC FPGA Discovery Kit
 | DIP6 (LOW LEVEL ACTIVE)	| Y20	| In	| 1.8V	| 0 |
 | DIP7 (LOW LEVEL ACTIVE)	| V21	| In	| 1.8V	| 0 |
 | DIP8 (LOW LEVEL ACTIVE)	| AA19	| In	| 1.8V	| 0 |
-| DISP7SEG1	| V18	| Out	| 1.8V	| 0 |
-| DISP7SEG2	| W20	| Out	| 1.8V	| 0 |
-| DISP7SEG3	| Y19	| Out	| 1.8V	| 0 |
-| DISP7SEG4	| T17	| Out	| 1.8V	| 0 |
-| DISP7SEG5	| W16	| Out	| 1.8V	| 0 |
-| DISP7SEG6	| AA17	| Out	| 1.8V	| 0 |
-| DISP7SEG7	| V15	| Out	| 1.8V	| 0 |
-| DISP7SEG8	| Y15	| Out	| 1.8V	| 0 |
+| IO1	| V18	| Out	| 1.8V	| 0 |
+| IO2	| W20	| Out	| 1.8V	| 0 |
+| IO3	| Y19	| Out	| 1.8V	| 0 |
+| IO4	| T17	| Out	| 1.8V	| 0 |
+| IO5	| W16	| Out	| 1.8V	| 0 |
+| IO6	| AA17	| Out	| 1.8V	| 0 |
+| IO7	| V15	| Out	| 1.8V	| 0 |
+| IO8	| Y15	| Out	| 1.8V	| 0 |
 | UART_TX	| W21	| Out	| 1.8V	| 0 |
 | UART_RX	| Y21	| In	| 1.8V	| 0 |
 | RPI_GPIO3	| E18 | 		| 2.5V/3.3V (J45)*	| 1 |
@@ -214,6 +214,23 @@ _*R58, R59, R60, R61 : NM → CMODE: 2_
 | 13	| CAM_I2C_SDA(PULL-UP)	| T20	| In	| 1.8V	| 0 |
 | 14	| CAM_I2C_SCL(PULL-UP)	| T21	| In	| 1.8V	| 0 |
 | 15	| GND				 |
+
+# 7 Segment Display
+
+![7_seg](./img/7_SEG.png)
+
+_FPGA Output voltage: 1.8V → Pin voltage: 3V3 / 5V (J49)_
+
+| Name	| FPGA PIN	| Type	| Voltage	| FPGA Bank |
+| :-------- | :----------- | :----------- | :------ | :---------- | 
+| IO1	| V18	| Out	| 1.8V	| 0 |
+| IO2	| W20	| Out	| 1.8V	| 0 |
+| IO3	| Y19	| Out	| 1.8V	| 0 |
+| IO4	| T17	| Out	| 1.8V	| 0 |
+| IO5	| W16	| Out	| 1.8V	| 0 |
+| IO6	| AA17	| Out	| 1.8V	| 0 |
+| IO7	| V15	| Out	| 1.8V	| 0 |
+| IO8	| Y15	| Out	| 1.8V	| 0 |
 
 
 # SD CARD _(MSS Pins)_
