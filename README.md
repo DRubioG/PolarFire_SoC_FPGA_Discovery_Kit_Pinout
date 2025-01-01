@@ -37,7 +37,7 @@ Pinout for PolarFire SoC FPGA Discovery Kit
 | RPI_GPIO5	| F18 | 		| 2.5V/3.3V (J45)*	| 1 |
 | RPI_GPIO7	| E12 | 		| 2.5V/3.3V (J45)*	| 1 |
 | RPI_GPIO8	| A20 | 		| 2.5V/3.3V (J45)*	| 1 |
-| RPI_GPIO10	| B21 	| 	| 2.5V/3.3V (J45)*	| 1 |
+| <cell style="background-color: red"> GND  </cell> RPI_GPIO10	| B21 	| 	| 2.5V/3.3V (J45)*	| 1 |
 | RPI_GPIO11	| G18	| 	| 2.5V/3.3V (J45)*	| 1 |
 | RPI_GPIO12	| E10	| 	| 2.5V/3.3V (J45)*	| 1 |
 | RPI_GPIO13	| F21	| 	| 2.5V/3.3V (J45)*	| 1 |
